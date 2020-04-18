@@ -1,4 +1,4 @@
-# Spring Boot-istio integration
+# Spring Boot-istio integration ![enter image description here](https://travis-ci.org/4sujittiwari/springboot-istio-integration.svg?branch=master)
 
 This project will help you guys setting up istio Service Mesh and will also enable you to communicate between you Spring Boot microservices using kubernetes service discovery.
 #
