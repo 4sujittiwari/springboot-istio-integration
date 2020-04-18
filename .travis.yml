@@ -1,0 +1,16 @@
+  
+language: java
+jdk: openjdk8
+sudo: true
+before_script:
+- cd customer
+script:
+- mvn clean install -B
+after_script:
+- cd ..
+before_script:
+- cd preference
+script:
+- mvn clean install -B
+after_script:
+- cd ..
